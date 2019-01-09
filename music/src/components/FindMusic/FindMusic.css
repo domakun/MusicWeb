@@ -1,0 +1,90 @@
+/* For demo */
+.FindMusic {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.FindMusic .ant-carousel .slick-slide {
+    text-align: center;
+    height: 336px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.FindMusic .ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+.FindMusic .slick-track {
+    height: 336px;
+}
+
+.FindMusic  .ant-carousel {
+    width: 730px;
+    float: left;
+}
+.FindMusic .slick-list,
+.left_component{
+    width: 730px ;
+}
+.right_component{
+    width: 254px ;
+}
+.left_component {
+    padding: 20px 20px 40px 20px;
+    box-sizing: border-box;
+}
+.FindMusic .downNow {
+    width: 254px;
+    height: 336px;
+    background-image: url("../../public/img/download.png");
+    float: left;
+    color: white;
+}
+.FindMusic .downNow a {
+    display: block;
+    width: 215px;
+    height: 65px;
+    background-position: bottom left;
+    margin-top: 211px;
+    margin-left: 19px;
+}
+.FindMusic .downNow a:hover {
+    background-image: url("../../public/img/download.png");
+}
+.recommend_link {
+    color: #888;
+    position: relative;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.recommend_link:hover {
+    color: #888;
+    text-decoration: underline;
+}
+.recommend_link::after {
+    content: '';
+    width: 2px;
+    height: 15px;
+    position: absolute;
+    display: block;
+    top: 0px ;
+    right: -10px;
+    background-color: rgb(204,204,204);
+}
+.recommend_link:last-of-type::after{
+    background-color: transparent;
+}
+.listen_info {
+    background: url(../../public/img/coverall.png) no-repeat ;
+    background-position: 0px -537px;
+}
+.a_cover_class {
+    background: url(../../public/img/coverall.png) no-repeat ;
+    display: block;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}

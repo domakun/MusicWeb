@@ -1,0 +1,39 @@
+* {
+    margin:0 ;
+    padding:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width:1100px ;
+    margin:0 auto ;
+}
+.container_small {
+    width:984px ;
+    margin:0 auto ;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right ;
+}
+.clear::after,
+.clear::before{
+    content:'' ;
+    display:block ;
+    clear:both ;
+}
+.red {
+    color:rgb(194,12,12)
+}
+.flex {
+   display:flex ;
+   justify-content:space-around ;
+   flex-direction:row;
+   flex-wrap: wrap;
+   align-content:space-around ;
+}
+.ellipsis {
+    font-size:14px ;
+}
+
